@@ -2,8 +2,16 @@
 
 
 int main(){
+    //compile time error
+    /*
 
-    std::cout << "Number1" << std::endl;
-    std::cout << "Number2" << std::endl;
-    std::cout << "Number3" << std::endl;
+    std::cout << "Hello world!" << std::endl;
+    return 0;
+    */
+
+    //Run time error
+    int value = 7/0;
+    std::cout << "value : " << value << std::endl;
+    return 0;
+
 } 
